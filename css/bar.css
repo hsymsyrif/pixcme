@@ -185,6 +185,7 @@ ul li ul li a {
 
 .scrollup img {
   width: 24px;
+  height: 20px;
 }
 
 .scrollup:focus {
@@ -326,6 +327,6 @@ ul li ul li a {
   }
 
   .page-img {
-    margin-left: 14rem;
+    margin-left: 12rem;
   }
 }

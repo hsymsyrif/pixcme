@@ -1,6 +1,5 @@
 body {
   font-family: "Poppins", sans-serif;
-  background-color: rgba(0, 0, 0, 0.1);
 }
 
 h2 {
@@ -13,7 +12,7 @@ h2 {
 }
 
 details {
-  width: 75%;
+  width: 85%;
   min-height: 5px;
   max-width: 700px;
   padding: 45px 70px 45px 45px;
@@ -73,6 +72,7 @@ summary::-webkit-details-marker {
   fill: #ff9b9b;
   transition: 0.3s ease;
   pointer-events: none;
+  width: 100px;
 }
 
 .control-icon-close {
