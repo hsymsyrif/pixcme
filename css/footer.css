@@ -1,0 +1,10 @@
+footer {
+  background-color: #ff9b9b;
+}
+
+.textcopyright {
+  padding: 1rem;
+  display: flex;
+  justify-content: center;
+  color: #fff;
+}

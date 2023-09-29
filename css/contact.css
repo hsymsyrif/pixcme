@@ -1,0 +1,165 @@
+.konten {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+input[type="text"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+input[type="submit"] {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #0056b3;
+}
+/* //////////////////////////// */
+.member {
+  background-color: #ff9b9b;
+  width: 290px;
+  height: 413px;
+  border-radius: 1rem;
+}
+
+.member:hover {
+  transform: scale(1.05);
+  cursor: pointer;
+  box-shadow: 0 0 10px rgba(255, 155, 155, 0.705);
+}
+
+.fotomember {
+  position: relative;
+}
+
+.nama {
+  background-color: rgb(219, 135, 135);
+  color: #fff;
+  position: absolute;
+  top: 83%;
+  border-radius: 0.5rem;
+  box-shadow: 0 -5px 5px rgba(0, 0, 0, 0.425);
+}
+
+.fotomember h3 {
+  font-size: 15px;
+  padding: 1rem;
+  width: 290px;
+}
+
+.teambox {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.statuscard {
+  margin: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.sosmedteam {
+  margin-top: 1rem;
+  width: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.sosmedteam:hover {
+  transform: scale(1.2);
+}
+
+.rolename {
+  display: flex;
+  color: #ff9b9b;
+  justify-content: center;
+  margin-top: 1rem;
+}
+
+.fotomember img {
+  width: 300px;
+  padding: 1rem;
+}
+
+.fotomember img:hover {
+  transform: scale(1);
+}
+
+.our-team {
+  display: flex;
+  justify-content: center;
+}
+
+/* Contact Page */
+
+.contact-page {
+  display: flex;
+  justify-content: center;
+  gap: 5rem;
+}
+
+.contact-card {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 5rem;
+  gap: 5rem;
+}
+
+.container-contact {
+  margin-bottom: 3rem;
+}
+
+.container-contact img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 10px rgba(255, 155, 155, 0.705);
+}
+
+.map-location {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-card img {
+  border-radius: 0.5rem;
+  width: 60px;
+  padding: 1rem;
+  border: 1px solid #ff9b9b;
+}
+
+/* //////////////////////////// */
+
+/* Media Queries */
+
+@media (max-width: 786px) {
+  .fotomember img {
+    width: 290px;
+  }
+
+  .nama {
+    top: 88%;
+  }
+}
