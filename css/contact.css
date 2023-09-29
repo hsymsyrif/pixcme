@@ -96,7 +96,8 @@ input[type="submit"]:hover {
   display: flex;
   color: #ff9b9b;
   justify-content: center;
-  margin-top: 1rem;
+  margin-top: 3rem;
+  font-size: 16px;
 }
 
 .fotomember img {
