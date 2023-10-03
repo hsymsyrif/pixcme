@@ -69,6 +69,13 @@ body {
   border: none;
   font-size: 1.5rem;
   cursor: pointer;
+  padding: 5px;
+}
+
+.close:hover {
+  background-color: #ccc;
+  padding: 5px;
+  border-radius: 5px;
 }
 
 .popup-logo {
@@ -125,7 +132,7 @@ body {
 }
 
 .cta:hover {
-  background-color: #c57979;
+  background-color: #128c7e;
 }
 
 .blur {
